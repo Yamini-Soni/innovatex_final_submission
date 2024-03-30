@@ -1,0 +1,349 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    border:none;
+}
+html{
+    overflow-x:hidden;
+}
+.head{
+    
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding-left:30px;
+    padding-right:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:125px;
+    background-image:linear-gradient(rgba(240, 114, 83, 0.4),rgba(206, 230, 75, 0.4));
+    border-bottom: 2px solid rgb(86, 165, 218);
+    
+}
+h1{
+    color:rgb(100, 15, 15);
+    /*padding-left:2%;*/
+    padding-right:13%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    text-shadow:2px 1px rgb(199, 102, 170);
+    font-size:40px;
+}
+.gatimage{
+    width:120px;
+    height:100px;
+    padding-left:0px;
+    margin-left:0;
+    
+    
+    
+}
+
+.navbar a{
+    text-decoration:none;
+    color:black;
+    /*padding-left:25px;
+    padding-right:0;*/
+    font-size:20px;
+    font-weight:bold;
+
+
+    
+
+}
+a{
+    text-align:center;
+}
+.head .navbar a{
+    padding:1rem;
+
+}
+.home{
+    padding-bottom:800px;
+   /* background-image:url("https://image.wedmegood.com/resized-nw/1300X/wp-content/uploads/2021/06/vivekkrishnanphotography-1252.jpg");*/
+    background-position:center;
+    background-clip: ur;
+    width:100vw;
+    height:40vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    justify-content: center;
+    
+    
+    border-bottom:5px solid goldenrod;
+    align-items: center;
+    background-image:url("https://getwallpapers.com/wallpaper/full/f/1/4/318732.jpg");
+    
+    /*background-image:linear-gradient(rgba(241, 131, 88, 0.2),rgba(245, 138, 76, 0.4),rgba(204, 190, 69, 0.6),rgba(0,0,0,0.8));
+*/
+}
+
+video{
+    margin-top:27%;
+    border-right:8px solid goldenrod;
+    border-top:8px solid goldenrod;
+}
+.about{
+    width:92%;
+    height:1200px;
+    
+    justify-content:space-evenly;
+    align-content:center;
+    margin:50px;
+    border-radius:50px;
+     
+    background-repeat: no-repeat;
+    
+    background-image:linear-gradient(rgba(233, 171, 36, 0.438),rgba(202, 199, 26, 0.5)),url("https://wallpaperaccess.com/full/722766.jpg");
+}
+.about p{
+    font-size:50px;
+    text-align:center;
+    color:rgb(15, 12, 12);
+    font-weight:bold;
+    padding-bottom:55px;
+}
+
+.written{
+    height:200px;
+    width:50;
+    display:flex;
+    flex-direction:row;
+    margin:0px 50px;
+
+}
+.written img{
+    width:250px;
+    height:260px;
+    padding-left:20px;
+    border-radius:40px;
+}
+.written2{
+    
+    display:flex;
+    height:200px;
+    width:50;
+    
+    flex-direction:row;
+    margin:200px 50px;
+
+
+}
+div.written{
+    padding-bottom:400px;
+    
+}
+.written2 img{
+    width:290px;
+    height:260px;
+    margin-left:200px;
+    border-radius:40px;
+}
+.written2 h1{
+    text-align:center;
+    
+}
+.contactus{
+    padding-top:1px;
+    padding-left:30%;
+    width:100%;
+    padding-bottom:5px;
+    background-image:linear-gradient(rgba(233, 171, 36, 0.438),rgba(202, 199, 26, 0.5)),url("https://wallpaperaccess.com/full/722766.jpg");
+
+    height:400px;
+    
+}
+.info{
+    text-align:center;
+
+    
+    
+}
+.info h1{
+    padding-bottom:20px;
+}
+.info p{
+    text-align:center;
+    padding-right:5%;
+}
+.footer{
+    background-color:rgb(91, 104, 223);
+    height:60px;
+    width:100%;
+    color:white;
+    text-align:center;
+    padding-top:5px;
+}
+.info div{
+    margin-bottom:20px;
+    margin-right:30px;
+    margin-top:10px;
+    color:rgb(56, 12, 33);
+    
+}
+.boz{
+    color:black;
+    width:200px;
+    height:20px;
+    border-radius:30px;
+    padding:5px;
+    margin-right:10%;
+    
+}
+.submit{
+    width:50px;
+    height:30px;
+    color:white;
+    font-weight:bold;
+    border-radius:20px;
+    cursor: pointer;
+    background-image:linear-gradient(rgba(155, 9, 9, 0.9),rgba(90, 10, 37, 0.5));
+
+}
+.written p{
+    font-size:20px;
+    font-weight:lighter;
+}
+.info{
+
+    background-image:linear-gradient(rgba(233, 171, 36, 0.438),rgba(202, 199, 26, 0.5));
+    width:52%;
+    height:350px;
+    
+    justify-content:space-evenly;
+    align-content:center;
+    margin:50px;
+    border-radius:50px;
+
+}
+.item1{
+    margin-top:80px;
+    height:400px;
+    margin-right: 44px;
+    margin-left:60px;
+    margin-bottom:70px;
+    border-radius:40px;
+    padding:40px;
+    /*display:flex;*/
+
+    background-image:linear-gradient(rgba(233, 171, 36, 0.438),rgba(202, 199, 26, 0.5)),url("https://wallpaperaccess.com/full/722766.jpg");
+
+   /* background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(197, 100, 100, 0.5)),url("https://marketplace.canva.com/EAFUFiGX5ek/1/0/1600w/canva-colorful-watercolor-floral-linktree-background-qRHfsd-4Nmc.jpg");
+*/
+    
+}
+.item2{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    
+    
+    
+}
+.item1 h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:rgb(32, 16, 16);
+    font-weight:bold;
+    font-size:30px;
+    text-shadow:1px 1px black;
+}
+.box{
+    height:220px;
+    width:200px;
+    /*display:flex;
+    flex-direction:column;
+    flex-flow: column;*/
+    text-align:center;
+    padding-top:10px;
+    margin-right:20px;
+    
+    margin-bottom:10px;
+    border-radius:30px;
+    box-shadow:1px 2px 1px 1px  rgb(54, 52, 52);
+    background-image:linear-gradient(rgba(235, 225, 225, 0.5),rgba(243, 215, 90, 0.9))
+}
+.check{
+    width:80px;
+    height:80px;
+    border-radius:50px;
+    margin-top:20px;
+}
+.look{
+    margin-bottom:5px;
+    background-color:rgb(32, 115, 182);
+    width:80px;
+    height:30px;
+    border-radius:20px;
+    
+}
+.look a{
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+}
+.dabba1{
+    /*margin-left:27%;
+    width:400px;
+    margin-right:0;*/
+    height:250px;
+    width:400px;
+    /*display:flex;
+    flex-direction:column;
+    flex-flow: column;*/
+    text-align:center;
+    margin-bottom:10px;
+    border-radius:30px;
+    
+    margin-left:30%;
+    margin-right:30%;
+    align-content:center;
+    box-shadow:1px 2px 1px 1px  rgb(54, 52, 52);
+    background-image:linear-gradient(rgba(235, 225, 225, 0.5),rgba(255,255,255,0.9));
+    
+}
+.dabba h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:rgb(146, 18, 18);
+    font-weight:bold;
+    font-size:30px;
+    text-shadow:1px 1px black;
+}
+.first{
+    height:150px;
+    width:200px;
+    border-radius:20px;
+    margin-top:20px;
+}
+.dabba{
+    margin-top:180px;
+    height:400px;
+    margin-right: 40px;
+    margin-left:60px;
+    border-radius:40px;
+    padding:40px;
+    /*display:flex;*/
+
+    
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(197, 100, 100, 0.5)),url("https://wallpaperaccess.com/full/722766.jpg");
+
+}
+.dabba3{
+    background-color:rgb(129, 29, 29);
+    width:80px;
+    height:30px;
+    border-radius:20px;
+    margin-top:10px;
+
+}
+.dabba3 a{
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+
+}

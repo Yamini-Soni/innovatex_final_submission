@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:black;
+}
+.a{
+    padding-top:1px;
+    padding-left:30%;
+    width:100%;
+    text-align:center;
+    align-items: center;
+    padding-bottom:5px;
+    background-image:linear-gradient(rgba(233, 171, 36, 0.438),rgba(202, 199, 26, 0.5)),url("https://wallpaperaccess.com/full/722766.jpg");
+
+    height:400px;
+    
+}
